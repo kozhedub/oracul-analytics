@@ -1,17 +1,18 @@
 import os
-import logging
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 from utils.telegram import send_telegram_message
+
+import logging
 from utils.logger import setup_logger
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 # 📦 Настройка окружения
 load_dotenv()
-setup_logger()
+
 
 # Подключение к БД
 DATABASE_URL = os.getenv("DATABASE_URL")

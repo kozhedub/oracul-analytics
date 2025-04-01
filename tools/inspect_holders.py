@@ -1,7 +1,10 @@
 import pandas as pd
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 # Загружаем файл

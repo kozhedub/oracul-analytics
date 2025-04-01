@@ -2,8 +2,11 @@ import argparse
 import subprocess
 from utils.telegram import send_telegram_message
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 def run_command(description, command):
     try:

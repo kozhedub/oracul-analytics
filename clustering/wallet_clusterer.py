@@ -2,9 +2,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 import os
 from dotenv import load_dotenv
+import logging
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+from utils.logger import setup_logger
+setup_logger()
+
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 

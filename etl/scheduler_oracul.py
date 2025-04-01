@@ -4,11 +4,13 @@ from sqlalchemy import create_engine
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 from rich.console import Console
-import logging
 import requests
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 console = Console()

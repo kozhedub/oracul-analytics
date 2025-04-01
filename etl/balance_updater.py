@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import logging
 from datetime import datetime, timezone
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.dialects.postgresql import insert
@@ -10,18 +9,14 @@ from utils.infura import get_eth_balance
 from utils.etherscan import get_token_balances
 import subprocess
 
+import logging
+from utils.logger import setup_logger
 
-
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 # 🔧 Настройка
 load_dotenv()
-setup_logger()
-
-print("📄 Запущен скрипт: balance_updater.py")
-logging.info("📄 Запущен скрипт: balance_updater.py")
-
-logging.info("🚀 Начинаем обновление балансов")
-print("🚀 Обновляем балансы...")
 
 # 📂 Пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

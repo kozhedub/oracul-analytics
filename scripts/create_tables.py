@@ -1,15 +1,16 @@
 import os
-import logging
 from sqlalchemy import create_engine, text
-from utils.logger import setup_logger
 from dotenv import load_dotenv
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 load_dotenv()
-setup_logger()
+
 
 logging.info("🛠️ Создание таблиц в базе данных...")
 print("🛠️ Создаём таблицы...")

@@ -1,18 +1,17 @@
 import os
-import logging
 from datetime import datetime, timezone
 import pandas as pd
 from sqlalchemy import create_engine, Table, MetaData
 from sqlalchemy.dialects.postgresql import insert
 from dotenv import load_dotenv
 from utils.etherscan import get_token_balances
+
+import logging
 from utils.logger import setup_logger
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
-
-
 setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
+
 load_dotenv()
 
 logging.info("🚀 Запуск отслеживания токенов на адресах")

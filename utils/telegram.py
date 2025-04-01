@@ -2,8 +2,11 @@ import os
 import requests
 from dotenv import load_dotenv
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 load_dotenv()

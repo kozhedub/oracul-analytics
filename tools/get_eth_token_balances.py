@@ -7,8 +7,11 @@ from web3 import Web3
 from tqdm import tqdm
 from sqlalchemy import create_engine
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 
 load_dotenv()

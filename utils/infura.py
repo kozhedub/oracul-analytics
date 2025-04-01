@@ -3,13 +3,14 @@ import os
 import json
 from dotenv import load_dotenv
 from web3 import Web3
+
 import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
 
 load_dotenv()
-
-print("📄 Запущен скрипт: infura.py")
-logging.info("📄 Запущен скрипт: infura.py")
-
 
 INFURA_URL = os.getenv("INFURA_URL")
 w3 = Web3(Web3.HTTPProvider(INFURA_URL))

@@ -1,23 +1,24 @@
 import os
 import json
 import pandas as pd
-import logging
 from tqdm import tqdm
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, Table, MetaData
 from sqlalchemy.dialects.postgresql import insert
 from utils.etherscan import get_erc20_transactions
-from utils.logger import setup_logger
 from utils.telegram import send_telegram_message
 from utils.prices import update_token_prices
 from clustering.wallet_clusterer import run_wallet_clustering
 import subprocess
 
-print("📄 Запущен скрипт: <название>")
-logging.info("📄 Запущен скрипт: <название>")
-
+import logging
+from utils.logger import setup_logger
 
 setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
+
+
+
 load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.getenv("ADDRESS_CSV_PATH")
@@ -36,7 +37,7 @@ def detect_call_type(input_data: str) -> str:
     signature_map = {
         "0x7ff36ab5": "DEX Swap",
         "0x38ed1739": "DEX Swap",
-        "0xa9059cbb": "ERC20 Transfer",○☼
+        "0xa9059cbb": "ERC20 Transfer",
         "0x23b872dd": "ERC721 Transfer",
         "0x6ea056a9": "Bridge",
         "0xf305d719": "DEX AddLiquidity",
@@ -193,7 +194,7 @@ def collect_from_csv(csv_path=None):
         send_telegram_message(f"❌ Ошибка при кластеризации: {str(e)}")
 
     try:
-        subprocess.run(["python", "etl/whale_alerts.py"])
+        subprocess.run(["python", os.path.join(BASE_DIR, "whale_alerts.py")])
         send_telegram_message("📣 Whale Alerts завершены")
     except Exception as e:
         logging.error(f"[Whale Alerts] Ошибка: {str(e)}")

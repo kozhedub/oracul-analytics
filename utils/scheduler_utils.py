@@ -1,9 +1,15 @@
+import logging
+from utils.logger import setup_logger
+
+setup_logger()
+logging.info(f"📄 Запущен скрипт: {__file__}")
+
+
 def get_recently_active(engine, days=30):
     from sqlalchemy.sql import text
     import datetime
 
-    print("📄 Запущен скрипт: <название>")
-    logging.info("📄 Запущен скрипт: <название>")
+
 
     query = text("""
         SELECT wallet_label, MAX(timestamp) as last_tx
