@@ -1,0 +1,314 @@
+2025-03-28 10:03:00,512 — INFO — [Binance Wallet] Загружено: 10000 записей
+2025-03-28 10:03:03,908 — ERROR — [USDT Hot Wallet] Ошибка: 'timeStamp'
+2025-03-28 10:03:26,848 — INFO — [Test Whale] Загружено: 10000 записей
+2025-03-28 12:50:28,572 — INFO — [TopHolder #001] Загружено: 10000 записей
+2025-03-28 12:50:53,659 — INFO — [TopHolder #002] Загружено: 10000 записей
+2025-03-28 12:51:15,143 — INFO — [TopHolder #003] Загружено: 10000 записей
+2025-03-28 12:51:31,626 — INFO — [TopHolder #004] Загружено: 10000 записей
+2025-03-28 12:51:34,272 — INFO — [TopHolder #005] Загружено: 434 записей
+2025-03-28 12:51:57,018 — INFO — [TopHolder #006] Загружено: 10000 записей
+2025-03-28 12:52:05,267 — INFO — [TopHolder #007] Загружено: 1911 записей
+2025-03-28 12:52:21,312 — INFO — [TopHolder #008] Загружено: 10000 записей
+2025-03-28 12:52:40,026 — INFO — [TopHolder #009] Загружено: 10000 записей
+2025-03-28 12:52:58,673 — INFO — [TopHolder #010] Загружено: 10000 записей
+2025-03-28 12:53:17,219 — INFO — [TopHolder #011] Загружено: 5569 записей
+2025-03-28 12:53:36,315 — INFO — [TopHolder #012] Загружено: 10000 записей
+2025-03-28 12:53:53,702 — INFO — [TopHolder #013] Загружено: 10000 записей
+2025-03-28 12:54:01,059 — INFO — [TopHolder #014] Загружено: 2962 записей
+2025-03-28 12:54:06,183 — INFO — [TopHolder #015] Загружено: 1665 записей
+2025-03-28 12:54:07,656 — INFO — [TopHolder #016] Загружено: 15 записей
+2025-03-28 12:54:09,150 — INFO — [TopHolder #017] Загружено: 15 записей
+2025-03-28 12:54:10,595 — INFO — [TopHolder #018] Загружено: 15 записей
+2025-03-28 12:54:12,195 — INFO — [TopHolder #019] Загружено: 15 записей
+2025-03-28 12:54:14,715 — INFO — [TopHolder #020] Загружено: 15 записей
+2025-03-28 12:54:16,356 — INFO — [TopHolder #021] Загружено: 15 записей
+2025-03-28 12:54:17,541 — INFO — [TopHolder #022] Загружено: 15 записей
+2025-03-28 12:54:18,973 — INFO — [TopHolder #023] Загружено: 15 записей
+2025-03-28 12:54:44,249 — INFO — [TopHolder #024] Загружено: 9799 записей
+2025-03-28 12:54:46,595 — INFO — [TopHolder #025] Загружено: 257 записей
+2025-03-28 12:55:10,406 — INFO — [TopHolder #026] Загружено: 10000 записей
+2025-03-28 12:55:33,735 — INFO — [TopHolder #027] Загружено: 10000 записей
+2025-03-28 12:55:37,078 — INFO — [TopHolder #028] Загружено: 705 записей
+2025-03-28 12:55:57,964 — INFO — [TopHolder #029] Загружено: 10000 записей
+2025-03-28 12:56:05,756 — INFO — [TopHolder #030] Загружено: 1480 записей
+2025-03-28 12:56:11,419 — INFO — [TopHolder #031] Загружено: 1249 записей
+2025-03-28 12:56:13,077 — INFO — [TopHolder #032] Загружено: 33 записей
+2025-03-28 12:56:29,690 — INFO — [TopHolder #033] Загружено: 8641 записей
+2025-03-28 12:56:31,821 — INFO — [TopHolder #034] Загружено: 27 записей
+2025-03-28 12:56:57,239 — INFO — [TopHolder #035] Загружено: 9265 записей
+2025-03-28 12:57:36,941 — INFO — [TopHolder #036] Загружено: 10000 записей
+2025-03-28 12:57:57,727 — INFO — [TopHolder #037] Загружено: 10000 записей
+2025-03-28 12:58:21,794 — INFO — [TopHolder #038] Загружено: 10000 записей
+2025-03-28 12:58:44,866 — INFO — [TopHolder #039] Загружено: 10000 записей
+2025-03-28 12:59:03,881 — INFO — [TopHolder #040] Загружено: 10000 записей
+2025-03-28 12:59:32,778 — INFO — [TopHolder #041] Загружено: 10000 записей
+2025-03-28 12:59:40,807 — INFO — [TopHolder #042] Загружено: 3766 записей
+2025-03-28 12:59:45,037 — INFO — [TopHolder #043] Загружено: 411 записей
+2025-03-28 12:59:46,435 — INFO — [TopHolder #044] Загружено: 17 записей
+2025-03-28 12:59:48,377 — INFO — [TopHolder #045] Загружено: 130 записей
+2025-03-28 13:00:09,039 — INFO — [TopHolder #046] Загружено: 10000 записей
+2025-03-28 13:01:33,061 — ERROR — [TopHolder #047] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x36a26a0cd97c1f0c05f89a945a4fde58affbaa61&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000215F0E03610>, 'Connection to api.etherscan.io timed out. (connect timeout=None)'))
+2025-03-28 13:02:10,922 — INFO — [TopHolder #048] Загружено: 190 записей
+2025-03-28 13:02:13,216 — INFO — [TopHolder #049] Загружено: 272 записей
+2025-03-28 13:02:15,987 — INFO — [TopHolder #050] Загружено: 461 записей
+2025-03-28 13:02:15,990 — ERROR — [TopHolder #051] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xdbdeb3e2891f61c963fdb0067afc587cc9099bbb&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F6990>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:15,992 — ERROR — [TopHolder #052] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xa5cce4bac0cc0851e8b0841110b49e67c13a76ea&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F6490>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:15,993 — ERROR — [TopHolder #053] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x1c44041fb062385da5ee3b8ef29561e6ff0e37b1&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F5590>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:15,996 — ERROR — [TopHolder #054] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x67b3d4e002143283c0d0bf67429a89921f14ad8e&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F034AD50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:15,998 — ERROR — [TopHolder #055] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x6cdf94520d00ef13b9b56f3815107b9529b8957b&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0348F50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:15,999 — ERROR — [TopHolder #056] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xc669135ba22df58c08bfc544c85e541fd821ace5&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03610>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,001 — ERROR — [TopHolder #057] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x350bb2ab7795f5dcb078024f5ffe3c3d2ac181eb&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03C50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,002 — ERROR — [TopHolder #058] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xfae789b20e32635c7656582a40a4bd05f484812d&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00050>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,004 — ERROR — [TopHolder #059] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xe74b28c2eae8679e3ccc3a94d5d0de83ccb84705&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E007D0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,005 — ERROR — [TopHolder #060] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x17c98f22c4477a2762faf2d1b1ecf5734c645559&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0348F50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,007 — ERROR — [TopHolder #061] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xb1f0ee6fda084cfc333eabb89a5459173f7a7fac&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F034AD50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,009 — ERROR — [TopHolder #062] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xd290d11de499d364be82bf6eb308e377142180d1&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F5590>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,010 — ERROR — [TopHolder #063] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xf7a0b15f08bde575cb75d86d54531d9e07ab4047&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F6490>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,012 — ERROR — [TopHolder #064] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x000000000000000000000000000000000000dead&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F6990>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,014 — ERROR — [TopHolder #065] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xdc919fe73d8fcf93fc74e71eda5a3e60ab7ed2a6&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00050>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,016 — ERROR — [TopHolder #066] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x75114f00928113880ffa0034647ee8df6a79b958&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03C50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,018 — ERROR — [TopHolder #067] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xb432863b3857f1cd9d78f5856a8d20693a8bc1a0&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03610>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,019 — ERROR — [TopHolder #068] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x579e5e1811b98cf608934ab6185d120c92fcbe7a&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E025D0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,021 — ERROR — [TopHolder #069] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x0d0707963952f2fba59dd06f2b425ace40b492fe&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03110>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,022 — ERROR — [TopHolder #070] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x8c24a6466aeee75e1cb3212bdae904fc260a492a&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02AD0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,023 — ERROR — [TopHolder #071] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x6d7f81fd14dca44fe0fe97ba80fb0ef5cfc0e9f8&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03250>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,024 — ERROR — [TopHolder #072] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x9a14aec27b873f59379c39b3e5241d5c6596f299&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01F90>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,025 — ERROR — [TopHolder #073] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x4345c538e51a76dcde966d84743f05681af50141&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01310>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,027 — ERROR — [TopHolder #074] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x1070bc019b758a989d44c4ea161a756f2f66ff09&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01090>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,030 — ERROR — [TopHolder #075] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x5308c6d2581f6f33fe01e557d35d2bf3756f1e64&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02850>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,031 — ERROR — [TopHolder #076] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x3aeeaee2ecff831b91a28375443dc6dcbb6f7d2d&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F5D10>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,033 — ERROR — [TopHolder #077] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xb7b63e238453f4dcbbe0b394b9361f2b9f683649&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F60D0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,034 — ERROR — [TopHolder #078] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xec2b64f496060a86c4c021e979b662b4cb07fa53&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F30F7750>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,036 — ERROR — [TopHolder #079] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xb09ac0f12b55ee5b2c0dd8c69a7b7fc1cae2dae1&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F034AE90>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,037 — ERROR — [TopHolder #080] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x7fbabb1dd5a4aee41c273178cd98d702c23ad4d6&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0349D10>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,038 — ERROR — [TopHolder #081] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x39ed671ab729138e72ad218f493295078990021c&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02710>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,040 — ERROR — [TopHolder #082] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x027c23402fbfc29ea8fdb1b665c8917070f2e5a2&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01590>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,041 — ERROR — [TopHolder #083] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x46340b20830761efd32832a74d7169b29feb9758&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01810>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,042 — ERROR — [TopHolder #084] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xc11fbfbc5afb9c8bbb3da1189a11485dfe3c9dd4&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01A90>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,043 — ERROR — [TopHolder #085] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x92ea7496eba5f001d620005f88f3e8e686e3d4ea&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01E50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,045 — ERROR — [TopHolder #086] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x521aa1ba5819f24aeb9b968319788cd7c3325719&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02350>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,047 — ERROR — [TopHolder #087] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x084313e68cf55b9f3055ecca4b7c19c09a33da1d&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00410>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,049 — ERROR — [TopHolder #088] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xdfaf4474fff90254a4acb1a3ab560ea783f5003d&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03ED0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,050 — ERROR — [TopHolder #089] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xa4893a3520318c6a722c312245f9775dbb148c6c&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E039D0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,051 — ERROR — [TopHolder #090] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xef1bbd864ea673f040cf0adf6a19b985cdb5d660&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02990>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,053 — ERROR — [TopHolder #091] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x4cfe5d3eb4acc553ed66a1782a0ef30f0f27eb2d&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00B90>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,055 — ERROR — [TopHolder #092] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xfb5aa42af50e0e92d008b159380ba92f9e9299cd&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00F50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,056 — ERROR — [TopHolder #093] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x1eef123acb7f22e57f22602a7764b12057d61f4b&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E01450>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,057 — ERROR — [TopHolder #094] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x9f17203888dc74360c838bc906ce44d9f913e932&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E00050>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,058 — ERROR — [TopHolder #095] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xd608e1c1ff2448dc4dc96a0938a5485f92e0f661&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03C50>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,059 — ERROR — [TopHolder #096] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x6d4beb94f60ec025e64a375a7df00980afc34bde&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03610>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,061 — ERROR — [TopHolder #097] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x9e36c4bad731da4497035452607dcf117f8424f0&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E025D0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,063 — ERROR — [TopHolder #098] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xfa3faf233114421e8a4e1f8141cfed02fb1ead5c&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03110>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,065 — ERROR — [TopHolder #099] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0x2672023032b4f4bd7b8cf32eb39d0f8dbed127ff&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E02AD0>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:02:16,066 — ERROR — [TopHolder #100] Ошибка: HTTPSConnectionPool(host='api.etherscan.io', port=443): Max retries exceeded with url: /api?module=account&action=tokentx&address=0xf2bf81a13a3e76c9615fdd7bf20e3bd4cffb50c5&startblock=0&endblock=99999999&sort=asc&apikey=3ZPNCCA1CR9NERDAW17VPN14DJM21SV19H (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000215F0E03250>: Failed to resolve 'api.etherscan.io' ([Errno 11001] getaddrinfo failed)"))
+2025-03-28 13:17:07,376 — INFO — [TopHolder #001] Загружено: 10000 записей
+2025-03-28 13:17:26,186 — INFO — [TopHolder #002] Загружено: 10000 записей
+2025-03-28 13:17:48,188 — INFO — [TopHolder #003] Загружено: 10000 записей
+2025-03-28 13:18:06,860 — INFO — [TopHolder #004] Загружено: 10000 записей
+2025-03-28 13:18:09,510 — INFO — [TopHolder #005] Загружено: 434 записей
+2025-03-28 13:18:25,306 — INFO — [TopHolder #006] Загружено: 10000 записей
+2025-03-28 13:18:31,632 — INFO — [TopHolder #007] Загружено: 1911 записей
+[13:50:04] | INFO | [TopHolder #001] Загружено: 10000 записей
+[13:50:24] | INFO | [TopHolder #002] Загружено: 10000 записей
+[13:50:43] | INFO | [TopHolder #003] Загружено: 10000 записей
+[13:51:06] | INFO | [TopHolder #004] Загружено: 10000 записей
+[13:51:09] | INFO | [TopHolder #005] Загружено: 434 записей
+[13:51:24] | INFO | [TopHolder #006] Загружено: 10000 записей
+[13:51:36] | INFO | [TopHolder #007] Загружено: 1911 записей
+[13:51:51] | INFO | [TopHolder #008] Загружено: 10000 записей
+[13:52:07] | INFO | [TopHolder #009] Загружено: 10000 записей
+[13:52:35] | INFO | [TopHolder #010] Загружено: 10000 записей
+[13:52:47] | INFO | [TopHolder #011] Загружено: 5569 записей
+[13:53:04] | INFO | [TopHolder #012] Загружено: 10000 записей
+[13:53:20] | INFO | [TopHolder #013] Загружено: 10000 записей
+[13:53:27] | INFO | [TopHolder #014] Загружено: 2962 записей
+[13:53:35] | INFO | [TopHolder #015] Загружено: 1665 записей
+[13:53:36] | INFO | [TopHolder #016] Загружено: 15 записей
+[13:53:37] | INFO | [TopHolder #017] Загружено: 15 записей
+[13:53:38] | INFO | [TopHolder #018] Загружено: 15 записей
+[13:53:40] | INFO | [TopHolder #019] Загружено: 15 записей
+[13:53:41] | INFO | [TopHolder #020] Загружено: 15 записей
+[13:53:42] | INFO | [TopHolder #021] Загружено: 15 записей
+[13:53:44] | INFO | [TopHolder #022] Загружено: 15 записей
+[13:53:45] | INFO | [TopHolder #023] Загружено: 15 записей
+[13:54:05] | INFO | [TopHolder #024] Загружено: 9799 записей
+[13:54:07] | INFO | [TopHolder #025] Загружено: 257 записей
+[13:54:25] | INFO | [TopHolder #026] Загружено: 10000 записей
+[13:54:42] | INFO | [TopHolder #027] Загружено: 10000 записей
+[13:54:46] | INFO | [TopHolder #028] Загружено: 705 записей
+[13:55:11] | INFO | [TopHolder #029] Загружено: 10000 записей
+[13:55:17] | INFO | [TopHolder #030] Загружено: 1480 записей
+[13:55:21] | INFO | [TopHolder #031] Загружено: 1249 записей
+[13:55:23] | INFO | [TopHolder #032] Загружено: 33 записей
+[13:55:56] | INFO | [TopHolder #033] Загружено: 8641 записей
+[13:55:57] | INFO | [TopHolder #034] Загружено: 27 записей
+[13:56:21] | INFO | [TopHolder #035] Загружено: 9268 записей
+[13:56:41] | INFO | [TopHolder #036] Загружено: 10000 записей
+[13:57:03] | INFO | [TopHolder #037] Загружено: 10000 записей
+[13:57:23] | INFO | [TopHolder #038] Загружено: 10000 записей
+[13:57:54] | INFO | [TopHolder #039] Загружено: 10000 записей
+[13:58:17] | INFO | [TopHolder #040] Загружено: 10000 записей
+[13:58:44] | INFO | [TopHolder #041] Загружено: 10000 записей
+[13:58:52] | INFO | [TopHolder #042] Загружено: 3766 записей
+[13:58:56] | INFO | [TopHolder #043] Загружено: 411 записей
+[13:58:58] | INFO | [TopHolder #044] Загружено: 17 записей
+[13:59:00] | INFO | [TopHolder #045] Загружено: 130 записей
+[13:59:23] | INFO | [TopHolder #046] Загружено: 10000 записей
+[13:59:26] | INFO | [TopHolder #047] Загружено: 586 записей
+[13:59:28] | INFO | [TopHolder #048] Загружено: 190 записей
+[13:59:31] | INFO | [TopHolder #049] Загружено: 272 записей
+[13:59:35] | INFO | [TopHolder #050] Загружено: 461 записей
+[13:59:38] | INFO | [TopHolder #051] Загружено: 15 записей
+[13:59:39] | INFO | [TopHolder #052] Загружено: 12 записей
+[13:59:41] | INFO | [TopHolder #053] Загружено: 35 записей
+[13:59:42] | INFO | [TopHolder #054] Загружено: 17 записей
+[14:00:00] | INFO | [TopHolder #055] Загружено: 10000 записей
+[14:00:04] | INFO | [TopHolder #056] Загружено: 279 записей
+[14:00:08] | INFO | [TopHolder #057] Загружено: 138 записей
+[14:00:18] | INFO | [TopHolder #058] Загружено: 950 записей
+[14:00:23] | INFO | [TopHolder #059] Загружено: 807 записей
+[14:00:28] | INFO | [TopHolder #060] Загружено: 41 записей
+[14:00:39] | INFO | [TopHolder #061] Загружено: 280 записей
+[14:00:48] | INFO | [TopHolder #062] Загружено: 697 записей
+[14:00:49] | INFO | [TopHolder #063] Загружено: 13 записей
+[14:01:15] | INFO | [TopHolder #064] Загружено: 10000 записей
+[14:01:19] | INFO | [TopHolder #065] Загружено: 657 записей
+[14:01:21] | INFO | [TopHolder #066] Загружено: 12 записей
+[14:01:42] | INFO | [TopHolder #067] Загружено: 1704 записей
+[14:01:46] | INFO | [TopHolder #068] Загружено: 753 записей
+[14:02:09] | INFO | [TopHolder #069] Загружено: 10000 записей
+[14:02:16] | INFO | [TopHolder #070] Загружено: 1209 записей
+[14:02:34] | INFO | [TopHolder #071] Загружено: 8745 записей
+[14:02:36] | INFO | [TopHolder #072] Загружено: 17 записей
+[14:03:03] | INFO | [TopHolder #073] Загружено: 3474 записей
+[14:03:08] | INFO | [TopHolder #074] Загружено: 468 записей
+[14:03:56] | INFO | [TopHolder #075] Загружено: 10000 записей
+[14:03:58] | INFO | [TopHolder #076] Загружено: 149 записей
+[14:04:01] | INFO | [TopHolder #077] Загружено: 36 записей
+[14:04:09] | INFO | [TopHolder #078] Загружено: 697 записей
+[14:04:11] | INFO | [TopHolder #079] Загружено: 170 записей
+[14:04:15] | INFO | [TopHolder #080] Загружено: 57 записей
+[14:04:39] | INFO | [TopHolder #081] Загружено: 10000 записей
+[14:04:43] | INFO | [TopHolder #082] Загружено: 144 записей
+[14:05:02] | INFO | [TopHolder #083] Загружено: 10000 записей
+[14:05:06] | INFO | [TopHolder #084] Загружено: 18 записей
+[14:05:47] | INFO | [TopHolder #085] Загружено: 7690 записей
+[14:05:51] | INFO | [TopHolder #086] Загружено: 730 записей
+[14:05:53] | INFO | [TopHolder #087] Загружено: 100 записей
+[14:05:56] | INFO | [TopHolder #088] Загружено: 110 записей
+[14:05:58] | INFO | [TopHolder #089] Загружено: 137 записей
+[14:06:00] | INFO | [TopHolder #090] Загружено: 3 записей
+[14:06:01] | INFO | [TopHolder #091] Загружено: 14 записей
+[14:06:05] | INFO | [TopHolder #092] Загружено: 14 записей
+[14:06:07] | INFO | [TopHolder #093] Загружено: 116 записей
+[14:06:14] | INFO | [TopHolder #094] Загружено: 1582 записей
+[14:06:17] | INFO | [TopHolder #095] Загружено: 351 записей
+[14:06:54] | INFO | [TopHolder #096] Загружено: 10000 записей
+[14:06:56] | INFO | [TopHolder #097] Загружено: 304 записей
+[14:06:59] | INFO | [TopHolder #098] Загружено: 189 записей
+[14:07:03] | INFO | [TopHolder #099] Загружено: 16 записей
+[14:07:05] | INFO | [TopHolder #100] Загружено: 24 записей
+[15:28:04] | INFO | [TopHolder #001] Загружено: 10000 записей
+[15:28:24] | INFO | [TopHolder #002] Загружено: 10000 записей
+[15:28:40] | INFO | [TopHolder #003] Загружено: 10000 записей
+[15:29:08] | INFO | [TopHolder #004] Загружено: 10000 записей
+[15:29:10] | INFO | [TopHolder #005] Загружено: 434 записей
+[15:29:34] | INFO | [TopHolder #006] Загружено: 10000 записей
+[15:29:55] | WARNING | [bold yellow]0xafcd96e580138cfa2332c632e66308eacd45c5da[/] | Попытка 1/3 — HTTPSConnectionPool(host='api.etherscan.io', port=443): Read timed out. (read timeout=20)
+[15:31:32] | INFO | [TopHolder #007] Загружено: 1911 записей
+[15:32:32] | INFO | [TopHolder #008] Загружено: 10000 записей
+[15:32:51] | INFO | [TopHolder #009] Загружено: 10000 записей
+[15:33:12] | INFO | [TopHolder #010] Загружено: 10000 записей
+[15:33:31] | INFO | [TopHolder #011] Загружено: 5569 записей
+[15:34:05] | INFO | [TopHolder #012] Загружено: 10000 записей
+[15:34:26] | INFO | [TopHolder #013] Загружено: 10000 записей
+[15:34:48] | WARNING | [bold yellow]0x2933782b5a8d72f2754103d1489614f29bfa4625[/] | Попытка 1/3 — HTTPSConnectionPool(host='api.etherscan.io', port=443): Read timed out.
+[15:35:04] | INFO | [TopHolder #014] Загружено: 2962 записей
+[15:35:11] | INFO | [TopHolder #015] Загружено: 1665 записей
+[15:35:13] | INFO | [TopHolder #016] Загружено: 15 записей
+[15:35:15] | INFO | [TopHolder #017] Загружено: 15 записей
+[15:35:16] | INFO | [TopHolder #018] Загружено: 15 записей
+[15:35:18] | INFO | [TopHolder #019] Загружено: 15 записей
+[15:35:19] | INFO | [TopHolder #020] Загружено: 15 записей
+[15:35:21] | INFO | [TopHolder #021] Загружено: 15 записей
+[15:35:23] | INFO | [TopHolder #022] Загружено: 15 записей
+[15:35:24] | INFO | [TopHolder #023] Загружено: 15 записей
+[15:36:11] | INFO | [TopHolder #024] Загружено: 9799 записей
+[15:36:15] | INFO | [TopHolder #025] Загружено: 257 записей
+[15:36:33] | INFO | [TopHolder #026] Загружено: 10000 записей
+[15:37:06] | INFO | [TopHolder #027] Загружено: 10000 записей
+[15:37:10] | INFO | [TopHolder #028] Загружено: 705 записей
+[15:37:41] | WARNING | [bold yellow]0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23[/] | Попытка 1/3 — HTTPSConnectionPool(host='api.etherscan.io', port=443): Read timed out.
+[15:38:40] | INFO | [TopHolder #029] Загружено: 10000 записей
+[15:38:46] | INFO | [TopHolder #030] Загружено: 1480 записей
+[15:38:52] | INFO | [TopHolder #031] Загружено: 1250 записей
+[15:38:53] | INFO | [TopHolder #032] Загружено: 33 записей
+[15:39:42] | INFO | [TopHolder #033] Загружено: 8641 записей
+[15:39:44] | INFO | [TopHolder #034] Загружено: 27 записей
+[15:40:00] | INFO | [TopHolder #035] Загружено: 9273 записей
+[15:40:28] | INFO | [TopHolder #036] Загружено: 10000 записей
+[15:41:03] | INFO | [TopHolder #037] Загружено: 10000 записей
+[15:42:29] | INFO | [TopHolder #038] Загружено: 10000 записей
+[15:42:57] | INFO | [TopHolder #039] Загружено: 10000 записей
+[15:43:15] | INFO | [TopHolder #040] Загружено: 10000 записей
+[15:43:54] | INFO | [TopHolder #041] Загружено: 10000 записей
+[15:44:06] | INFO | [TopHolder #042] Загружено: 3791 записей
+[15:44:09] | INFO | [TopHolder #043] Загружено: 411 записей
+[15:44:12] | INFO | [TopHolder #044] Загружено: 17 записей
+[15:44:15] | INFO | [TopHolder #045] Загружено: 130 записей
+[15:44:41] | INFO | [TopHolder #046] Загружено: 10000 записей
+[15:44:45] | INFO | [TopHolder #047] Загружено: 586 записей
+[15:44:49] | INFO | [TopHolder #048] Загружено: 190 записей
+[15:45:15] | WARNING | [bold yellow]0xb3034f89fa917ddaf6867833a2aa5c300e0c68fa[/] | Попытка 1/3 — HTTPSConnectionPool(host='api.etherscan.io', port=443): Read timed out. (read timeout=20)
+[15:45:24] | INFO | [TopHolder #049] Загружено: 272 записей
+[15:45:27] | INFO | [TopHolder #050] Загружено: 461 записей
+[15:45:28] | INFO | [TopHolder #051] Загружено: 15 записей
+[15:45:30] | INFO | [TopHolder #052] Загружено: 12 записей
+[15:45:33] | INFO | [TopHolder #053] Загружено: 35 записей
+[15:45:36] | INFO | [TopHolder #054] Загружено: 17 записей
+[15:46:12] | INFO | [TopHolder #055] Загружено: 10000 записей
+[15:46:17] | INFO | [TopHolder #056] Загружено: 279 записей
+[15:46:21] | INFO | [TopHolder #057] Загружено: 138 записей
+[15:46:35] | INFO | [TopHolder #058] Загружено: 950 записей
+[15:46:55] | INFO | [TopHolder #059] Загружено: 807 записей
+[15:46:57] | INFO | [TopHolder #060] Загружено: 41 записей
+[15:47:02] | INFO | [TopHolder #061] Загружено: 280 записей
+[15:47:07] | INFO | [TopHolder #062] Загружено: 697 записей
+[15:47:08] | INFO | [TopHolder #063] Загружено: 13 записей
+[15:47:32] | INFO | [TopHolder #064] Загружено: 10000 записей
+[15:47:37] | INFO | [TopHolder #065] Загружено: 657 записей
+[15:47:38] | INFO | [TopHolder #066] Загружено: 12 записей
+[15:47:47] | INFO | [TopHolder #067] Загружено: 1704 записей
+[15:47:51] | INFO | [TopHolder #068] Загружено: 753 записей
+[15:48:11] | INFO | [TopHolder #069] Загружено: 10000 записей
+[15:48:17] | INFO | [TopHolder #070] Загружено: 1209 записей
+[15:48:40] | INFO | [TopHolder #071] Загружено: 8767 записей
+[15:48:42] | INFO | [TopHolder #072] Загружено: 17 записей
+[15:48:57] | INFO | [TopHolder #073] Загружено: 3474 записей
+[15:49:00] | INFO | [TopHolder #074] Загружено: 468 записей
+[15:49:22] | INFO | [TopHolder #075] Загружено: 10000 записей
+[15:49:25] | INFO | [TopHolder #076] Загружено: 149 записей
+[15:49:30] | INFO | [TopHolder #077] Загружено: 36 записей
+[15:49:37] | INFO | [TopHolder #078] Загружено: 697 записей
+[15:49:39] | INFO | [TopHolder #079] Загружено: 170 записей
+[15:49:40] | INFO | [TopHolder #080] Загружено: 57 записей
+[15:50:07] | INFO | [TopHolder #081] Загружено: 10000 записей
+[15:50:15] | INFO | [TopHolder #082] Загружено: 144 записей
+[15:50:33] | INFO | [TopHolder #083] Загружено: 10000 записей
+[15:50:35] | INFO | [TopHolder #084] Загружено: 18 записей
+[15:50:52] | INFO | [TopHolder #085] Загружено: 7690 записей
+[15:50:56] | INFO | [TopHolder #086] Загружено: 730 записей
+[15:50:59] | INFO | [TopHolder #087] Загружено: 100 записей
+[15:51:01] | INFO | [TopHolder #088] Загружено: 110 записей
+[15:51:03] | INFO | [TopHolder #089] Загружено: 137 записей
+[15:51:05] | INFO | [TopHolder #090] Загружено: 3 записей
+[15:51:07] | INFO | [TopHolder #091] Загружено: 14 записей
+[15:51:08] | INFO | [TopHolder #092] Загружено: 14 записей
+[15:51:12] | INFO | [TopHolder #093] Загружено: 116 записей
+[15:51:18] | INFO | [TopHolder #094] Загружено: 1582 записей
+[15:51:21] | INFO | [TopHolder #095] Загружено: 351 записей
+[15:51:43] | INFO | [TopHolder #096] Загружено: 10000 записей
+[15:51:48] | INFO | [TopHolder #097] Загружено: 304 записей
+[15:51:50] | INFO | [TopHolder #098] Загружено: 189 записей
+[15:51:51] | INFO | [TopHolder #099] Загружено: 16 записей
+[15:51:53] | INFO | [TopHolder #100] Загружено: 24 записей
