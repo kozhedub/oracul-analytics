@@ -1,6 +1,65 @@
-# Игнорируем файл с переменными окружения
-echo ".env" >> .gitignore
-git add .gitignore
-git commit -m "🛡️ Remove .env from history and ignore it"
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
+# 🧪 Venv
+.venv/
+venv/
+ENV/
+env/
+
+# 📄 Логи, дампы и временные файлы
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.orig
+*.old
+
+# 📊 CSV/JSON резервные или тестовые файлы
+*копия*.csv
+*backup*.csv
+*.zip
+*.xlsx
+*.xls
+*.parquet
+
+# 📦 PyCharm / JetBrains IDE
 .idea/
+*.iml
+*.ipr
+*.iws
+
+# 🔐 Секреты и конфиги
+.env
+.env.*
+
+# 📊 Данные, которые не должны попасть в репу
+data/erc20_data.csv
+data/erc20_data.json
+etl/data/
+processed.log
+
+# 🧪 Jupyter
+.ipynb_checkpoints/
+
+# 🔍 Superset / Metabase exports
+*.csv
+*.json
+*.pdf
+*.png
+*.svg
+*.xlsx
+*.ipynb
+
+# 🐘 PostgreSQL дампы
+*.dump
+*.sql
