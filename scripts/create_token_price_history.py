@@ -3,6 +3,10 @@ import logging
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, MetaData, select, insert
 from datetime import datetime, timezone
+
+
+
+
 # Настройка
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
