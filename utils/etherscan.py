@@ -1,5 +1,5 @@
 import os
-import requests
+import pandas as pd
 from dotenv import load_dotenv
 import requests
 import time
@@ -51,14 +51,22 @@ def get_erc20_transactions(address):
         try:
             response = requests.get(base_url, params=params, timeout=timeout)
             response.raise_for_status()
-            return response.json()
+            data = response.json()
+
+            # Проверяем статус ответа
+            if data.get("status") == "1" and "result" in data:
+                return pd.DataFrame(data["result"])
+            else:
+                logging.warning(f"⚠️ Нет данных или статус != 1 для {address}")
+                return pd.DataFrame()  # Возвращаем пустой DataFrame
+
         except requests.exceptions.RequestException as e:
-            logging.warning(f"[bold yellow]{address}[/] | Попытка {attempt}/{retries} — {e}")
+            logging.warning(f"⚠️ {address} | Попытка {attempt}/{retries} — {e}")
             if attempt < retries:
                 time.sleep(delay)
             else:
-                logging.error(f"[red]{address}[/] | Все попытки неудачны.")
-                return {"status": "0", "result": []}
+                logging.error(f"❌ {address} | Все попытки неудачны.")
+                return pd.DataFrame()
 def get_token_balances(address):
     url = (
         f"https://api.etherscan.io/api"

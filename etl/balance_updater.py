@@ -133,3 +133,69 @@ try:
     logging.info("✅ Скрипт wallet_token_tracker.py выполнен успешно")
 except Exception as e:
     logging.error(f"❌ Ошибка при запуске wallet_token_tracker.py: {e}")
+
+
+def update_wallet_balances():
+    logging.info("🚀 Обновляем балансы...")
+
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
+
+    if not os.path.exists(csv_path):
+        logging.error(f"❌ CSV-файл не найден: {csv_path}")
+        print(f"❌ Файл {csv_path} не найден. Проверь путь и повтори попытку.")
+        return
+
+    df = pd.read_csv(csv_path)
+    rows = []
+
+    for _, row in df.iterrows():
+        address = row["address"]
+        label = row.get("label", None)
+
+        try:
+            eth_balance = get_eth_balance(address)
+            token_balances = get_token_balances(address)
+
+            total_tokens = 0
+            for token in token_balances:
+                raw_balance = token.get("balance") or token.get("TokenQuantity") or token.get("value")
+                if raw_balance is None:
+                    continue
+                decimals = int(token.get("tokenDecimal", 18))
+                total_tokens += float(raw_balance) / (10 ** decimals)
+
+            rows.append({
+                "address": address,
+                "balance_eth": eth_balance,
+                "balance_token": total_tokens,
+                "usd_value": 0,  # можно заменить позже
+                "first_seen": datetime.utcnow(),
+                "last_seen": datetime.utcnow(),
+            })
+
+            logging.info(f"[BAL] {label or address} ETH: {eth_balance:.4f}, Tokens: {total_tokens}")
+
+        except Exception as e:
+            logging.warning(f"[BAL] Ошибка {label or address}: {str(e)}")
+
+    # Сохраняем в БД
+    engine = create_engine(os.getenv("DATABASE_URL"))
+    metadata = MetaData()
+    metadata.reflect(bind=engine)
+    table = metadata.tables["wallet_balances"]
+
+    with engine.begin() as conn:
+        for row in rows:
+            stmt = insert(table).values(**row)
+            stmt = stmt.on_conflict_do_update(
+                index_elements=["address"],
+                set_={
+                    "balance_eth": row["balance_eth"],
+                    "balance_token": row["balance_token"],
+                    "last_seen": row["last_seen"]
+                }
+            )
+            conn.execute(stmt)
+
+    logging.info(f"✅ Обновлено {len(rows)} балансов")

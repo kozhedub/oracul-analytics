@@ -1,31 +1,28 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
-import os
-from dotenv import load_dotenv
 import logging
 
 from utils.logger import setup_logger
+from utils.db_config import get_engine
+
 setup_logger()
+logging.info("🔗 Выполняем кластеризацию...")
 
-logging.info(f"📄 Запущен скрипт: {__file__}")
-
-
-
-load_dotenv()
-
-# 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
-
-def run_wallet_clustering():
-    print("🔗 Выполняем кластеризацию...")
-
-    engine = create_engine(os.getenv("DATABASE_URL"))
-    query = "SELECT address, first_tx, last_tx, tx_count, total_value FROM wallets_meta"
+def run_clustering():
+    engine = get_engine()
+    query = "SELECT DISTINCT address, wallet_label FROM wallet_token_balances"
     df = pd.read_sql(query, engine)
 
-    # Эвристическая кластеризация — можно улучшать
-    df["cluster_id"] = (df["first_tx"].astype(str) + df["total_value"].astype(str)).factorize()[0]
+    df["cluster_id"] = df.groupby("wallet_label", dropna=False).ngroup()
 
     df.to_sql("wallet_clusters", engine, if_exists="replace", index=False)
-    print("✅ Кластеры записаны в wallet_clusters")
+
+    # 👉 Создаем папку data, если не существует
+    os.makedirs("data", exist_ok=True)
+    df.to_csv("data/wallet_clusters.csv", index=False)
+
+    logging.info("✅ Кластеры записаны в wallet_clusters")
+
+if __name__ == "__main__":
+    run_clustering()
