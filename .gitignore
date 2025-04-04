@@ -45,7 +45,7 @@ env/
 # 📊 Данные, которые не должны попасть в репу
 data/erc20_data.csv
 data/erc20_data.json
-etl/data/
+data/
 processed.log
 
 # 🧪 Jupyter
