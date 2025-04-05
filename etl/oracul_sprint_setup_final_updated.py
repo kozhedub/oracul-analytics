@@ -1,28 +1,27 @@
-import os
 import logging
+
+from pathlib import Path
+import os
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+csv_path = Path(os.getenv("ADDRESS_CSV_PATH", BASE_DIR / "data" / "addresses.csv"))
 from dotenv import load_dotenv
 import pandas as pd
 from tqdm import tqdm
 from sqlalchemy import create_engine, insert, Table, MetaData
 from sqlalchemy.dialects.postgresql import insert as pg_insert
+
 from utils.logger import setup_logger
 from utils.db_config import get_engine
 from utils.telegram import send_telegram_message
 from utils.etherscan import get_erc20_transactions
 from clustering.wallet_clusterer import run_clustering
+from etl.wallet_token_tracker import scan_tokens_for_wallet
 from etl.balance_updater import update_wallet_balances
 from etl.save_token_prices import fetch_and_save_token_prices
-from pathlib import Path
-import pandas as pd
-import logging
 
+# 📂 Пути
 
-
-# 📂 Определяем базовую директорию (корень проекта)
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-# 📄 Путь до CSV с адресами, можно переопределить через переменные окружения
-csv_path = Path(os.getenv("ADDRESS_CSV_PATH", BASE_DIR / "data" / "addresses.csv"))
 
 # Настройка окружения
 load_dotenv()

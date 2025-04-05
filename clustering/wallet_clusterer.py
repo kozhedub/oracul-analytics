@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine
 import logging
-
+from pathlib import Path
 from utils.logger import setup_logger
 from utils.db_config import get_engine
 
@@ -18,11 +18,15 @@ def run_clustering():
 
     df.to_sql("wallet_clusters", engine, if_exists="replace", index=False)
 
-    # 👉 Создаем папку data, если не существует
-    os.makedirs("data", exist_ok=True)
-    df.to_csv("data/wallet_clusters.csv", index=False)
+    # 📂 Путь к корневой папке проекта и data/
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    data_dir = BASE_DIR / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
 
-    logging.info("✅ Кластеры записаны в wallet_clusters")
+    output_path = data_dir / "wallet_clusters.csv"
+    df.to_csv(output_path, index=False)
+
+    logging.info(f"✅ Кластеры записаны в wallet_clusters и сохранены в {output_path}")
 
 if __name__ == "__main__":
     run_clustering()

@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 from utils.telegram import send_telegram_photo
-
 import logging
 from utils.logger import setup_logger
+from pathlib import Path
+
 
 setup_logger()
 logging.info(f"📄 Запущен скрипт: {__file__}")
@@ -15,9 +16,8 @@ logging.info(f"📄 Запущен скрипт: {__file__}")
 load_dotenv()
 engine = create_engine(os.getenv("DATABASE_URL"))
 
-# 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
+
+
 
 # 📊 Запрос для анализа накоплений и распродаж
 query = """

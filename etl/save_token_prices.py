@@ -6,9 +6,7 @@ from sqlalchemy.dialects.postgresql import insert
 from utils.coingecko import get_token_prices
 from utils.db_config import get_engine
 
-# 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
+
 
 # Получение движка для базы данных
 engine = get_engine()
