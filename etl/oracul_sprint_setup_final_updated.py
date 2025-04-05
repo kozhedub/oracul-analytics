@@ -1,16 +1,11 @@
 import logging
-
 from pathlib import Path
 import os
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-csv_path = Path(os.getenv("ADDRESS_CSV_PATH", BASE_DIR / "data" / "addresses.csv"))
 from dotenv import load_dotenv
 import pandas as pd
 from tqdm import tqdm
 from sqlalchemy import create_engine, insert, Table, MetaData
 from sqlalchemy.dialects.postgresql import insert as pg_insert
-
 from utils.logger import setup_logger
 from utils.db_config import get_engine
 from utils.telegram import send_telegram_message
@@ -21,7 +16,8 @@ from etl.balance_updater import update_wallet_balances
 from etl.save_token_prices import fetch_and_save_token_prices
 
 # 📂 Пути
-
+BASE_DIR = Path(__file__).resolve().parent.parent
+csv_path = Path(os.getenv("ADDRESS_CSV_PATH", BASE_DIR / "data" / "addresses.csv"))
 
 # Настройка окружения
 load_dotenv()
@@ -70,7 +66,6 @@ try:
     logging.info("🚀 Старт сбора данных по токенам и транзакциям")
     fetch_and_save_token_prices()
     run_clustering()
-    csv_path = os.getenv("ADDRESS_CSV", "data/addresses.csv")
     collect_from_csv(csv_path)
     update_wallet_balances()
     logging.info("✅ Обновление балансов завершено")

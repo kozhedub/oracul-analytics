@@ -10,7 +10,8 @@ csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/address
 
 COINGECKO_LIST_URL = "https://api.coingecko.com/api/v3/coins/list"
 COINGECKO_PRICE_URL = "https://api.coingecko.com/api/v3/simple/price"
-CACHE_FILE = "coingecko_tokens.json"
+CACHE_FILE = os.path.join(BASE_DIR, "../data/coingecko_tokens.json")
+
 CACHE_TTL_HOURS = 24
 
 def load_cached_ids() -> dict:

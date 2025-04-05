@@ -3,6 +3,7 @@ import json
 import logging
 from utils.db_config import get_engine
 from sqlalchemy import text
+from pathlib import Path
 
 
 logging.basicConfig(level=logging.INFO)
@@ -36,9 +37,14 @@ def build_symbol_to_id_map(symbols, coingecko_tokens):
     return mapping
 
 def save_to_json(data, filename="symbol_to_id_map.json"):
-    with open(filename, "w", encoding="utf-8") as f:
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    output_path = BASE_DIR / "data" / filename
+    output_path.parent.mkdir(parents=True, exist_ok=True)  # создаёт папку, если её нет
+
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-    logging.info(f"✅ Сохранено: {filename}")
+
+    logging.info(f"✅ Сохранено: {output_path}")
 
 def main():
     symbols = fetch_symbols_from_db()

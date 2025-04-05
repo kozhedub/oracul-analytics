@@ -16,14 +16,18 @@ logging.info(f"📄 Запущен скрипт: {__file__}")
 console = Console()
 load_dotenv()
 
-# 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
+# Получаем путь к корню проекта
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+LOG_PATH = os.path.join(BASE_DIR, "data", "balance_updater.log")
 
+# Создаем папку, если нет
+os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+
+# Конфиг логгера
 logging.basicConfig(
-    filename="balance_updater.log",
+    filename=LOG_PATH,
     level=logging.INFO,
-    format="%(asctime)s — %(levelname)s — %(message)s"
+    format="%(asctime)s | %(levelname)s | %(message)s"
 )
 
 def send_telegram_message(message):
@@ -45,6 +49,8 @@ def update_wallet_balances(csv_path="addresses_with_balances.csv"):
     db_url = os.getenv("DATABASE_URL")
     engine = create_engine(db_url)
 
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    csv_path = os.path.join(BASE_DIR, "data", "addresses_with_balances.csv")
     df_new = pd.read_csv(csv_path)
 
     try:
@@ -63,7 +69,8 @@ def update_wallet_balances(csv_path="addresses_with_balances.csv"):
         send_telegram_message(msg)
     else:
         updated_rows = []
-        now = datetime.utcnow()
+        from datetime import datetime, timezone
+        now = datetime.now(timezone.utc)
 
         for _, row in df_new.iterrows():
             addr = row["address"]

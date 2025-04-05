@@ -1,11 +1,9 @@
-import os
 import logging
 from datetime import datetime, timezone
 from sqlalchemy import MetaData, text
 from sqlalchemy.dialects.postgresql import insert
 from utils.coingecko import get_token_prices
 from utils.db_config import get_engine
-
 
 
 # Получение движка для базы данных

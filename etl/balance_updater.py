@@ -4,11 +4,9 @@ from datetime import datetime, timezone
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.dialects.postgresql import insert
 from dotenv import load_dotenv
-from utils.logger import setup_logger
 from utils.infura import get_eth_balance
 from utils.etherscan import get_token_balances
 import subprocess
-
 import logging
 from utils.logger import setup_logger
 
@@ -18,9 +16,6 @@ logging.info(f"📄 Запущен скрипт: {__file__}")
 # 🔧 Настройка
 load_dotenv()
 
-# 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
 
 if not os.path.exists(csv_path):
     logging.error(f"❌ CSV-файл не найден: {csv_path}")

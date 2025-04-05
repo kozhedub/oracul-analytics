@@ -1,6 +1,4 @@
-import os
 import pandas as pd
-from sqlalchemy import create_engine
 import logging
 from pathlib import Path
 from utils.logger import setup_logger
@@ -22,7 +20,6 @@ def run_clustering():
     BASE_DIR = Path(__file__).resolve().parent.parent
     data_dir = BASE_DIR / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
-
     output_path = data_dir / "wallet_clusters.csv"
     df.to_csv(output_path, index=False)
 

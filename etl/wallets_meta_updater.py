@@ -16,8 +16,8 @@ load_dotenv()
 console = Console()
 
 # 📂 Пути
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(BASE_DIR, "../data/addresses.csv"))
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+csv_path = os.getenv("ADDRESS_CSV_PATH", os.path.join(ROOT_DIR, "data", "addresses.csv"))
 
 def update_wallets_meta():
     db_url = os.getenv("DATABASE_URL")
